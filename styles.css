@@ -1,2 +1,10 @@
-.blue {
-  border: 1px solid green; }
+circle {
+  fill: #ccc; }
+
+svg {
+  width: 100px;
+  height: 100px; }
+
+.table td {
+  width: 100px;
+  height: 100px; }

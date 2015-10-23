@@ -2,8 +2,13 @@
   "name": "d3-block",
   "version": "0.0.1",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jeet": "~6.1.2",
+    "bower": "*"
+  },
   "devDependencies": {
-    "d3": "~3.5.6"
+    "d3": "~3.5.6",
+    "jquery": "~2.1.4"
   }
 }
