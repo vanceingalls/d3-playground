@@ -1,0 +1,9 @@
+{
+  "name": "d3-block",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "d3": "~3.5.6"
+  }
+}
