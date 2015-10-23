@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "date": "10/1/2015",
+      "miles_driven": 20,
+      "trips": [
+        {
+          "time": "13:10",
+          "miles": 10
+        },
+        {
+          "time": "15:10",
+          "miles": 5
+        },
+        {
+          "time": "21:45",
+          "miles": 5
+        }
+      ]
+    },{
+      "date": "10/3/2015",
+      "miles_driven": 10,
+      "trips": [
+        {
+          "time": "1:10",
+          "miles": 5
+        },
+        {
+          "time": "2:45",
+          "miles": 5
+        }
+      ]
+    }
+  ]
+}
