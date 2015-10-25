@@ -1,35 +1,632 @@
-{
-  "data": [
-    {
-      "date": "10/1/2015",
-      "miles_driven": 20,
-      "trips": [
-        {
-          "time": "13:10",
-          "miles": 10
-        },
-        {
-          "time": "15:10",
-          "miles": 5
-        },
-        {
-          "time": "21:45",
-          "miles": 5
-        }
-      ]
-    },{
-      "date": "10/3/2015",
-      "miles_driven": 10,
-      "trips": [
-        {
-          "time": "1:10",
-          "miles": 5
-        },
-        {
-          "time": "2:45",
-          "miles": 5
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "date": "10/1/2015",
+    "miles_driven": 35,
+    "trips": [
+      {
+        "miles_driven": 17,
+        "time": "13:26"
+      },
+      {
+        "miles_driven": 10,
+        "time": "17:02"
+      },
+      {
+        "miles_driven": 8,
+        "time": "23:14"
+      }
+    ]
+  },
+  {
+    "date": "10/2/2015",
+    "miles_driven": 40,
+    "trips": [
+      {
+        "miles_driven": 11,
+        "time": "10:33"
+      },
+      {
+        "miles_driven": 14,
+        "time": "14:23"
+      },
+      {
+        "miles_driven": 10,
+        "time": "17:59"
+      },
+      {
+        "miles_driven": 5,
+        "time": "18:47"
+      }
+    ]
+  },
+  {
+    "date": "10/3/2015",
+    "miles_driven": 51,
+    "trips": [
+      {
+        "miles_driven": 11,
+        "time": "15:44"
+      },
+      {
+        "miles_driven": 10,
+        "time": "17:39"
+      },
+      {
+        "miles_driven": 18,
+        "time": "20:34"
+      },
+      {
+        "miles_driven": 12,
+        "time": "20:31"
+      }
+    ]
+  },
+  {
+    "date": "10/4/2015",
+    "miles_driven": 50,
+    "trips": [
+      {
+        "miles_driven": 10,
+        "time": "10:53"
+      },
+      {
+        "miles_driven": 17,
+        "time": "12:50"
+      },
+      {
+        "miles_driven": 22,
+        "time": "16:49"
+      },
+      {
+        "miles_driven": 1,
+        "time": "18:50"
+      }
+    ]
+  },
+  {
+    "date": "10/5/2015",
+    "miles_driven": 34,
+    "trips": [
+      {
+        "miles_driven": 10,
+        "time": "10:04"
+      },
+      {
+        "miles_driven": 13,
+        "time": "15:59"
+      },
+      {
+        "miles_driven": 10,
+        "time": "15:38"
+      },
+      {
+        "miles_driven": 1,
+        "time": "17:04"
+      }
+    ]
+  },
+  {
+    "date": "10/6/2015",
+    "miles_driven": 81,
+    "trips": [
+      {
+        "miles_driven": 14,
+        "time": "11:49"
+      },
+      {
+        "miles_driven": 16,
+        "time": "13:15"
+      },
+      {
+        "miles_driven": 22,
+        "time": "13:19"
+      },
+      {
+        "miles_driven": 13,
+        "time": "16:53"
+      },
+      {
+        "miles_driven": 16,
+        "time": "18:49"
+      }
+    ]
+  },
+  {
+    "date": "10/7/2015",
+    "miles_driven": 35,
+    "trips": [
+      {
+        "miles_driven": 18,
+        "time": "11:01"
+      },
+      {
+        "miles_driven": 14,
+        "time": "13:35"
+      },
+      {
+        "miles_driven": 3,
+        "time": "16:18"
+      }
+    ]
+  },
+  {
+    "date": "10/8/2015",
+    "miles_driven": 3,
+    "trips": [
+      {
+        "miles_driven": 3,
+        "time": "12:28"
+      }
+    ]
+  },
+  {
+    "date": "10/9/2015",
+    "miles_driven": 48,
+    "trips": [
+      {
+        "miles_driven": 17,
+        "time": "17:41"
+      },
+      {
+        "miles_driven": 21,
+        "time": "23:39"
+      },
+      {
+        "miles_driven": 10,
+        "time": "25:10"
+      }
+    ]
+  },
+  {
+    "date": "10/10/2015",
+    "miles_driven": 49,
+    "trips": [
+      {
+        "miles_driven": 14,
+        "time": "15:13"
+      },
+      {
+        "miles_driven": 17,
+        "time": "19:48"
+      },
+      {
+        "miles_driven": 16,
+        "time": "20:04"
+      },
+      {
+        "miles_driven": 2,
+        "time": "21:19"
+      }
+    ]
+  },
+  {
+    "date": "10/11/2015",
+    "miles_driven": 84,
+    "trips": [
+      {
+        "miles_driven": 12,
+        "time": "11:25"
+      },
+      {
+        "miles_driven": 14,
+        "time": "12:01"
+      },
+      {
+        "miles_driven": 14,
+        "time": "13:50"
+      },
+      {
+        "miles_driven": 25,
+        "time": "15:01"
+      },
+      {
+        "miles_driven": 12,
+        "time": "17:57"
+      },
+      {
+        "miles_driven": 7,
+        "time": "19:42"
+      }
+    ]
+  },
+  {
+    "date": "10/12/2015",
+    "miles_driven": 5,
+    "trips": [
+      {
+        "miles_driven": 5,
+        "time": "15:13"
+      }
+    ]
+  },
+  {
+    "date": "10/13/2015",
+    "miles_driven": 40,
+    "trips": [
+      {
+        "miles_driven": 22,
+        "time": "16:06"
+      },
+      {
+        "miles_driven": 12,
+        "time": "16:55"
+      },
+      {
+        "miles_driven": 6,
+        "time": "23:51"
+      }
+    ]
+  },
+  {
+    "date": "10/14/2015",
+    "miles_driven": 7,
+    "trips": [
+      {
+        "miles_driven": 7,
+        "time": "15:02"
+      }
+    ]
+  },
+  {
+    "date": "10/15/2015",
+    "miles_driven": 4,
+    "trips": [
+      {
+        "miles_driven": 4,
+        "time": "11:46"
+      }
+    ]
+  },
+  {
+    "date": "10/16/2015",
+    "miles_driven": 26,
+    "trips": [
+      {
+        "miles_driven": 24,
+        "time": "15:50"
+      },
+      {
+        "miles_driven": 2,
+        "time": "16:22"
+      }
+    ]
+  },
+  {
+    "date": "10/17/2015",
+    "miles_driven": 84,
+    "trips": [
+      {
+        "miles_driven": 21,
+        "time": "10:56"
+      },
+      {
+        "miles_driven": 24,
+        "time": "12:44"
+      },
+      {
+        "miles_driven": 11,
+        "time": "15:37"
+      },
+      {
+        "miles_driven": 13,
+        "time": "17:06"
+      },
+      {
+        "miles_driven": 12,
+        "time": "19:33"
+      },
+      {
+        "miles_driven": 3,
+        "time": "22:21"
+      }
+    ]
+  },
+  {
+    "date": "10/18/2015",
+    "miles_driven": 90,
+    "trips": [
+      {
+        "miles_driven": 17,
+        "time": "13:15"
+      },
+      {
+        "miles_driven": 22,
+        "time": "14:43"
+      },
+      {
+        "miles_driven": 14,
+        "time": "17:16"
+      },
+      {
+        "miles_driven": 17,
+        "time": "18:36"
+      },
+      {
+        "miles_driven": 10,
+        "time": "21:34"
+      },
+      {
+        "miles_driven": 10,
+        "time": "21:07"
+      }
+    ]
+  },
+  {
+    "date": "10/19/2015",
+    "miles_driven": 1,
+    "trips": [
+      {
+        "miles_driven": 1,
+        "time": "14:45"
+      }
+    ]
+  },
+  {
+    "date": "10/20/2015",
+    "miles_driven": 13,
+    "trips": [
+      {
+        "miles_driven": 12,
+        "time": "10:40"
+      },
+      {
+        "miles_driven": 1,
+        "time": "12:50"
+      }
+    ]
+  },
+  {
+    "date": "10/21/2015",
+    "miles_driven": 91,
+    "trips": [
+      {
+        "miles_driven": 12,
+        "time": "10:29"
+      },
+      {
+        "miles_driven": 16,
+        "time": "12:27"
+      },
+      {
+        "miles_driven": 20,
+        "time": "15:04"
+      },
+      {
+        "miles_driven": 24,
+        "time": "16:11"
+      },
+      {
+        "miles_driven": 12,
+        "time": "18:04"
+      },
+      {
+        "miles_driven": 7,
+        "time": "20:39"
+      }
+    ]
+  },
+  {
+    "date": "10/22/2015",
+    "miles_driven": 74,
+    "trips": [
+      {
+        "miles_driven": 16,
+        "time": "13:19"
+      },
+      {
+        "miles_driven": 20,
+        "time": "14:48"
+      },
+      {
+        "miles_driven": 25,
+        "time": "18:13"
+      },
+      {
+        "miles_driven": 12,
+        "time": "20:28"
+      },
+      {
+        "miles_driven": 1,
+        "time": "20:06"
+      }
+    ]
+  },
+  {
+    "date": "10/23/2015",
+    "miles_driven": 87,
+    "trips": [
+      {
+        "miles_driven": 11,
+        "time": "11:06"
+      },
+      {
+        "miles_driven": 25,
+        "time": "12:24"
+      },
+      {
+        "miles_driven": 25,
+        "time": "12:48"
+      },
+      {
+        "miles_driven": 11,
+        "time": "15:45"
+      },
+      {
+        "miles_driven": 13,
+        "time": "15:05"
+      },
+      {
+        "miles_driven": 2,
+        "time": "18:39"
+      }
+    ]
+  },
+  {
+    "date": "10/24/2015",
+    "miles_driven": 13,
+    "trips": [
+      {
+        "miles_driven": 12,
+        "time": "21:00"
+      },
+      {
+        "miles_driven": 1,
+        "time": "23:29"
+      }
+    ]
+  },
+  {
+    "date": "10/25/2015",
+    "miles_driven": 94,
+    "trips": [
+      {
+        "miles_driven": 17,
+        "time": "10:03"
+      },
+      {
+        "miles_driven": 15,
+        "time": "11:20"
+      },
+      {
+        "miles_driven": 10,
+        "time": "12:11"
+      },
+      {
+        "miles_driven": 22,
+        "time": "13:29"
+      },
+      {
+        "miles_driven": 25,
+        "time": "14:12"
+      },
+      {
+        "miles_driven": 5,
+        "time": "17:07"
+      }
+    ]
+  },
+  {
+    "date": "10/26/2015",
+    "miles_driven": 90,
+    "trips": [
+      {
+        "miles_driven": 22,
+        "time": "12:34"
+      },
+      {
+        "miles_driven": 24,
+        "time": "13:25"
+      },
+      {
+        "miles_driven": 17,
+        "time": "14:51"
+      },
+      {
+        "miles_driven": 18,
+        "time": "15:11"
+      },
+      {
+        "miles_driven": 9,
+        "time": "18:40"
+      }
+    ]
+  },
+  {
+    "date": "10/27/2015",
+    "miles_driven": 16,
+    "trips": [
+      {
+        "miles_driven": 12,
+        "time": "17:41"
+      },
+      {
+        "miles_driven": 4,
+        "time": "20:45"
+      }
+    ]
+  },
+  {
+    "date": "10/28/2015",
+    "miles_driven": 45,
+    "trips": [
+      {
+        "miles_driven": 15,
+        "time": "14:26"
+      },
+      {
+        "miles_driven": 22,
+        "time": "19:46"
+      },
+      {
+        "miles_driven": 8,
+        "time": "23:18"
+      }
+    ]
+  },
+  {
+    "date": "10/29/2015",
+    "miles_driven": 24,
+    "trips": [
+      {
+        "miles_driven": 15,
+        "time": "14:52"
+      },
+      {
+        "miles_driven": 9,
+        "time": "19:09"
+      }
+    ]
+  },
+  {
+    "date": "10/30/2015",
+    "miles_driven": 64,
+    "trips": [
+      {
+        "miles_driven": 16,
+        "time": "15:30"
+      },
+      {
+        "miles_driven": 19,
+        "time": "18:06"
+      },
+      {
+        "miles_driven": 22,
+        "time": "22:08"
+      },
+      {
+        "miles_driven": 7,
+        "time": "22:31"
+      }
+    ]
+  },
+  {
+    "date": "10/31/2015",
+    "miles_driven": 96,
+    "trips": [
+      {
+        "miles_driven": 23,
+        "time": "12:54"
+      },
+      {
+        "miles_driven": 21,
+        "time": "14:41"
+      },
+      {
+        "miles_driven": 25,
+        "time": "17:13"
+      },
+      {
+        "miles_driven": 13,
+        "time": "19:17"
+      },
+      {
+        "miles_driven": 12,
+        "time": "21:48"
+      },
+      {
+        "miles_driven": 2,
+        "time": "23:26"
+      }
+    ]
+  }
+]

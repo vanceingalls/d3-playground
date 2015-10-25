@@ -1,8 +1,88 @@
-circle
-  fill: #ccc
-svg
-  width: 100px
-  height: 100px
-.table td
-  width: 100px
-  height: 100px
+@mixin transition($transition...)
+  -moz-transition:    $transition
+  -o-transition:      $transition
+  -webkit-transition: $transition
+  transition:         $transition
+
+$danger-fill: #d9534f
+$danger-stroke: #d43f3a
+$warning-fill: #f0ad4e
+$warning-stroke: #eea236
+$safe-fill: #5cb85c
+$safe-stroke: #4cae4c
+
+$box-dimension: 50px
+
+body
+  font-family: helvetica
+  font-size: .7em
+  color: #222
+
+ul, li
+  margin: 0px
+  padding: 0px
+
+ul
+  margin-left: 22px
+  line-height: 1.3em
+
+.block
+  margin: 20px 0 0 20px
+  width: $box-dimension * 7
+  height: $box-dimension * 5
+  h3
+    text-align: center
+
+td
+  position: relative
+  z-index: 0
+  font-size: .5em
+  &:hover
+    z-index: 100
+
+  svg
+    overflow: visible
+    width: $box-dimension
+    height: $box-dimension
+
+  text
+    @include transition(opacity .4s linear)
+    font-size: 3em
+    cursor: pointer
+    &.hidden
+      opacity: 0
+
+  circle
+    position: absolute
+    cursor: pointer
+    @include transition(r .3s ease-out, fill .3s ease-out 0s)
+
+  &:hover circle
+    r: 40
+
+  &.danger
+    circle
+      fill: $danger-fill
+      stroke: $danger-stroke
+    &:hover circle
+      fill: lighten($danger-fill, 30%)
+    text
+      fill: $danger-stroke
+
+  &.warning
+    circle
+      fill: $warning-fill
+      stroke: $warning-stroke
+    &:hover circle
+      fill: lighten($warning-fill, 30%)
+    text
+      fill: $warning-stroke
+
+  &.safe
+    circle
+      fill: $safe-fill
+      stroke: $safe-stroke
+    &:hover circle
+      fill: lighten($safe-fill, 30%)
+    text
+      fill: $safe-stroke

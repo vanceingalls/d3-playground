@@ -22,7 +22,9 @@ gulp.task 'coffee', ->
 gulp.task 'sass', ->
   gulp.src(sassSrc)
     .pipe plumber()
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sourcemaps.init())
+    .pipe(sass())
+    .pipe(sourcemaps.write(distDir))
     .pipe gulp.dest(distDir)
 
 gulp.task 'watch', ->
